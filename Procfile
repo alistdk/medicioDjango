@@ -1,2 +1,2 @@
-release: python manage.py migrate
-web: gunicorn medicoDjango.wsgi --log-files-
+release: python manage.py collectstatic --noinput
+web: gunicorn medicoDjango.wsgi 
