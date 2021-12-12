@@ -528,18 +528,20 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 #carrusel_1{
-  background-image: url({staticassets/img/slide/slide-1.jpg)
+  background-image: url('/static/assets/img/slide/slide-1.jpg');
 }
 
 #carrusel_2{
-  background-image: url(assets/img/slide/slide-2.jpg)
+  background-image: url('/static/assets/img/slide/slide-2.jpg');
 }
 
 #carrusel_3{
-  background-image: url(assets/img/slide/slide-3.jpg)
+  background-image: url('/static/assets/img/slide/slide-3.jpg');
 }
 
-
+#img_features{
+  background-image: url('/static/assets/img/features.jpg');
+}
 
 
 section {
